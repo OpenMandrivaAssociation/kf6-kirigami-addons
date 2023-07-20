@@ -1,4 +1,4 @@
-%define git 20230527
+%define git 20230720
 
 Name:		kf6-kirigami-addons
 Version:	0.8.0
@@ -9,6 +9,7 @@ Source0:	https://invent.kde.org/libraries/kirigami-addons/-/archive/master/kirig
 %else
 Source0:	https://download.kde.org/stable/kirigami-addons/kirigami-addons-%{version}.tar.xz
 %endif
+Patch0:		kirigami-addons-qt-6.6.patch
 License:	LGPLv2+
 Group:		Applications/Productivity
 BuildRequires:	cmake
