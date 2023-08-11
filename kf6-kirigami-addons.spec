@@ -1,4 +1,4 @@
-%define git 20230802
+%define git 20230811
 
 Name:		kf6-kirigami-addons
 Version:	0.8.0
